@@ -21,8 +21,7 @@ public class Task1b {
             int minimumIndex = Integer.MAX_VALUE, maximumIndex = -1;
             String minimumDigit = "";
             String maximumDigit = "";
-            String minimumDigitName = "";
-            String maximumDigitName = "";
+
             for (int i = 0; i < 10; i++) {
                 String digit = digits[i];
                 int index = line.indexOf(digit);
