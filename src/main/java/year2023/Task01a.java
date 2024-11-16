@@ -6,9 +6,9 @@ import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.List;
 
-public class Task1a {
+public class Task01a {
     public static void main(String[] args) throws IOException, URISyntaxException {
-        List<String> input = Utils.getInput("task1a.txt");
+        List<String> input = Utils.getInput("task01a.txt");
         System.out.println(solution(input));
     }
 

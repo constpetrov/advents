@@ -1,6 +1,6 @@
 package common;
 
-import year2023.Task1a;
+import year2023.Task01a;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
@@ -12,7 +12,7 @@ import java.util.List;
 
 public class Utils {
     public static List<String> getInput(String taskName) throws URISyntaxException, IOException {
-        URL resource = Task1a.class.getResource(taskName);
+        URL resource = Task01a.class.getResource(taskName);
         Path path = Paths.get(resource.toURI());
         List<String> input = Files.readAllLines(path);
         return input;
